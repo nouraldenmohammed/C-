@@ -1,0 +1,12 @@
+python
+
+
+import matplotlib.pyplot as plt
+
+import numpy as np
+
+
+data=np.loadtxt('tent.data')
+
+plt.plot(data)
+plt.show()
